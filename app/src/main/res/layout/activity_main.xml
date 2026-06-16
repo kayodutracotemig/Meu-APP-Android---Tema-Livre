@@ -12,12 +12,13 @@
         android:id="@+id/txt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Person train"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.479"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtinput"
-        app:layout_constraintVertical_bias="0.365" />
+        app:layout_constraintVertical_bias="0.375" />
 
     <ImageView
         android:id="@+id/image"
@@ -26,10 +27,10 @@
         android:layout_marginTop="100dp"
         app:layout_constraintBottom_toTopOf="@+id/txtinput"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.578"
         tools:srcCompat="@tools:sample/avatars" />
 
     <Button
@@ -37,7 +38,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="60dp"
-        android:text="Button"
+        android:text="jogar agora"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -49,9 +50,10 @@
         android:id="@+id/txtinput"
         android:layout_width="283dp"
         android:layout_height="32dp"
-        android:hint="hint"
+        android:hint="digite seu nome"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.414"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="335dp" />
+        tools:layout_editor_absoluteY="437dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
